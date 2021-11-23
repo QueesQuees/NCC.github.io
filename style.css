@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    overflow: initial;
+}
+
+body {
+    text-align: center;
+}
+
+/* side bar */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+.right-column {
+    float: left;
+    width: 85%;
+    margin-left: 15%;
+    padding: 0 3%;
+}
+
+
+
+.left-column .navbar-item {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    padding: 10px 10px;
+    
+}
+
+.navbar-item:hover {
+    background-color: azure;
+    color: black;
+}
+
+
+/* content */
+
+
+/* header logo */
+
+.header-cotent {
+    margin-bottom: 2.5rem;
+}
+
+.header-cotent h3 {
+    margin: 0%;
+}
+
+.headding-namer,
+.logoNCC {
+    display: inline-block;
+}
+.headding-namer h1 {
+    font-size: 105px;
+    margin: 0 1rem;
+    line-height: 0.8;
+}
+
+/* group 1 */
+.group1 {
+    text-align: center;
+    background-color: #ccc;
+    
+}
+
+.group1 div {
+    padding: 20px 30px;
+}
+
+.group1 div p {
+    padding: 0 30px;
+}
+
+/* sub group */
+.group234 {
+    overflow: hidden ;
+}
+
+.group2 {
+    padding-right: 15px;
+    width: 33%;
+    float: left;
+}
+
+.sub-content img {
+    padding-right: 10px;
+    float: left;
+}
+
+
+.group2  p {
+    text-align: left;
+}
+
+.group2  .conten1 {
+    text-align: left;
+    margin: 0;
+}
+
+
+/* footer */
+.footer {
+    text-align: left;
+    margin-top: 30px;
+}
